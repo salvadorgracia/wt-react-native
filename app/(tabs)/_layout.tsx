@@ -9,7 +9,6 @@ import {
   Pressable,
 } from 'react-native'
 import { icons } from '@/constants/icons'
-import { d } from '@/constants/debug'
 
 const TabIcon = ({ focused, icon, title }: any) => {
   if (focused) {
