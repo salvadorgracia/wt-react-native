@@ -12,7 +12,6 @@ const SearchBar = ({ onPress, placeholder }: Props) => {
   return (
     <View
       className="flex-row items-center bg-dark-200 rounded-full px-5 py-4"
-      style={debug.purple}
     >
       <Image
         source={icons.search}

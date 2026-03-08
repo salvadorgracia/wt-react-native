@@ -7,7 +7,7 @@ export const TMDB_CONFIG = {
   },
 }
 
-export const fetchPopularMovies = async ({ query }: {
+export const fetchMovies = async ({ query }: {
   query: string
 }) => {
   const endpoint = query
